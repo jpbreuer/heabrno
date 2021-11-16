@@ -531,18 +531,19 @@ body {
 }
 
 figure.image_frame .personal_image:hover {
-    box-shadow: 0px 0px 5px 5px #a1a1a1;
+    box-shadow: 0px 0px 6px 6px #a1a1a1;
 }
 
 figure.personal_image:hover {
-    box-shadow: 0px 0px 5px 5px #a1a1a1;
+    box-shadow: 0px 0px 6px 6px #a1a1a1;
 }
 
 figure.image_frame a{
-    transform: 0.2s ease;
+    transform: 0.25s;
 }
 
 figure.image_frame a:hover {
+    text-shadow: 1px 1px 3px #a1a1a1;
     text-decoration: none;
 }
 
@@ -571,5 +572,34 @@ section.bg-secondary li {
 }
 
 .BLAM {
-    font-size: 80%;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.sidebar_item {
+    font-size: 83%;
+    color: rgb(155, 155, 155);
+    line-height: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
+    transform: 0.25s ease;
+}
+
+.sidebar_item:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar_item:active {
+    color: black;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.names {
+    font-size: 130%;
+    font-weight: bold;
 }
