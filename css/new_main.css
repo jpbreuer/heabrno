@@ -568,16 +568,11 @@ section.bg-secondary li {
 }
 
 .info {
-    width: 90px;
-}
-
-.BLAM {
-    font-size: 90%;
-    font-weight: bold;
+    width: 100px;
 }
 
 .sidebar_item {
-    font-size: 83%;
+    font-size: 84%;
     color: rgb(155, 155, 155);
     line-height: 40px;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -600,6 +595,11 @@ html {
 }
 
 .names {
-    font-size: 130%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.BLAM {
+    font-size: 86%;
     font-weight: bold;
 }
