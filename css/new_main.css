@@ -603,3 +603,17 @@ html {
     font-size: 86%;
     font-weight: bold;
 }
+
+.podcasts {
+    margin-bottom: 10vh;
+    width: 90vw;
+    height: calc(90vw / 1.775);
+    max-width: 710px;
+    max-height: 400px;
+}
+
+.outreach_title {
+    font-size: 130%;
+    font-weight: bold;
+    padding-bottom: 1vh;
+}
