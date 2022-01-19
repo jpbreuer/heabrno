@@ -547,7 +547,7 @@ figure.image_frame a:hover {
     text-decoration: none;
 }
 
-div.col-md-3 a:hover { 
+div.col-md-3 a:hover {
     text-decoration: none;
 }
 
@@ -616,4 +616,18 @@ html {
     font-size: 130%;
     font-weight: bold;
     padding-bottom: 1vh;
+}
+
+/* .navbar-header:before{
+  display: block !important;
+  content: inherit !important;
+}
+.navbar-header:after{
+  clear: inherit !important;
+} */
+
+@media (min-width: 768px){
+   .navbar-collapse:after, .navbar-collapse:before{
+    content: none;
+  }
 }
