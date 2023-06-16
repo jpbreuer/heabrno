@@ -1,11 +1,15 @@
-html,
+/* html,
 body {
     height: 100%;
     width: 100%
-}
+} */
 
 body {
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif
+    /* font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif */
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 190%;
+    /* height: 100vh; */
+    background-color: white;
 }
 
 hr {
@@ -23,9 +27,9 @@ hr.light {
 }
 
 a {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
     color: orange
 }
 
@@ -50,11 +54,11 @@ p {
 }
 
 .bg-primary {
-    background-color: #085363
+    background-color: #085263
 }
 
 .bg-secondary {
-    background-color: #d1d1d1;
+    background-color: #ffffff;
 }
 
 .bg-dark {
@@ -81,7 +85,7 @@ section {
 }
 
 aside {
-    padding: 50px 0
+    padding: 40px 0
 }
 
 .no-padding {
@@ -89,16 +93,16 @@ aside {
 }
 
 .navbar-default {
-    background-color: black;
+    background-color: #24282d;
     border-color: rgba(34, 34, 34, 0.5);
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s
+    -webkit-transition: all 0.32s;
+    -moz-transition: all 0.32s;
+    transition: all 0.32s;
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: white;
+    color: orange;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase
@@ -153,28 +157,37 @@ header .text {
 }
 */
 
-
 header {
+    height: calc(100vh - 115px);
     position: relative;
     width: 100%;
+    height: 100vh;
     min-height: auto;
-    /*-webkit-background-size: cover;
+    -webkit-background-size: cover;/**/
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: center;
-    background-image: url("../images/stock_group_photo.jpg");*/
+    background-position: center center;
+    background-image: url("../images/comp/groupphoto_cropped5.jpg");
+    background-repeat: no-repeat;
     text-align: center;
     color: white;
+    opacity: 0.9;
 }
 
-header .image {
+/* header .image {
     opacity: 0.9;
     display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+} */
+
+header .image .img-responsive {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
 }
 
 header .header-content {
@@ -273,9 +286,9 @@ header .header-content .header-content-inner p {
     text-align: center;
     width: 100%;
     height: 100%;
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s
+    -webkit-transition: all 0.32s;
+    -moz-transition: all 0.32s;
+    transition: all 0.32s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -333,9 +346,9 @@ header .header-content .header-content-inner p {
     color: #222;
     background-color: #fff;
     border-color: #fff;
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s
+    -webkit-transition: all 0.32s;
+    -moz-transition: all 0.32s;
+    transition: all 0.32s;
 }
 
 .btn-default:hover,
@@ -386,9 +399,9 @@ fieldset[disabled] .btn-default.active {
     color: #fff;
     background-color: #F05F40;
     border-color: #F05F40;
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s
+    -webkit-transition: all 0.32s;
+    -moz-transition: all 0.32s;
+    transition: all 0.32s;
 }
 
 .btn-primary:hover,
@@ -477,3 +490,327 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: #222
 }
+
+
+ /* TOMAS */
+
+#principalinvestigator {
+    scroll-margin-top: 80px;
+}
+
+#postdoctoralassociates {
+    scroll-margin-top: 80px;
+}
+
+#staff {
+    scroll-margin-top: 80px;
+}
+
+#phdstudents {
+    scroll-margin-top: 80px;
+}
+
+#staff {
+    scroll-margin-top: 80px;
+}
+
+#mastersandundergraduatestudents {
+    scroll-margin-top: 80px;
+}
+
+#visitingscholars {
+    scroll-margin-top: 80px;
+}
+
+#alumni {
+    scroll-margin-top: 80px;
+}
+
+.personal_image {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: box-shadow 0.30s;
+}
+
+figure.image_frame .personal_image:hover {
+    box-shadow: 0px 0px 6px 6px #a1a1a1;
+}
+
+figure.personal_image:hover {
+    box-shadow: 0px 0px 6px 6px #a1a1a1;
+}
+
+figure.image_frame a{
+    transform: 0.25s;
+}
+
+figure.image_frame a:hover {
+    text-shadow: 1px 1px 3px #a1a1a1;
+    text-decoration: none;
+}
+
+div.col-md-3 a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 100%;
+}
+
+section.bg-secondary a:hover {
+    text-decoration: none;
+}
+
+section.bg-secondary {
+    text-align: justify;
+}
+
+section.bg-secondary li {
+    padding-bottom: 20px;
+}
+
+.info {
+    width: 100px;
+}
+
+.sidebar_item {
+    font-size: 84%;
+    color: rgb(155, 155, 155);
+    line-height: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    transform: 0.25s ease;
+}
+
+.sidebar_item:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar_item:active {
+    color: black;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.names {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.BLAM {
+    font-size: 86%;
+    font-weight: bold;
+}
+
+.podcasts {
+    margin-bottom: 10vh;
+    width: 90vw;
+    height: calc(90vw / 1.775);
+    max-width: 710px;
+    max-height: 400px;
+}
+
+.outreach_title {
+    font-size: 130%;
+    font-weight: bold;
+    padding-bottom: 1vh;
+}
+
+/* .navbar-header:before{
+  display: block !important;
+  content: inherit !important;
+}
+.navbar-header:after{
+  clear: inherit !important;
+} */
+
+@media (min-width: 768px){
+   .navbar-collapse:after, .navbar-collapse:before{
+    content: none;
+  }
+}
+
+footer {
+    background-color: rgb(236, 236, 236);
+    /* color: white; */
+    text-align: center;
+    width: 100vw;
+    position: relative;
+    bottom: 0vh;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+}
+
+.contact_us {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.black_stripe {
+    width: 100vw;
+    background-color: rgb(36, 40, 45);
+    padding-bottom: 40px;
+}
+
+.body_100vh {
+    min-height: calc(100vh - 36px);
+}
+
+.shortbr {
+    display: block; 
+    margin-bottom: 6px;
+}
+
+.longbr {
+    display: block; 
+    margin-bottom: 10px;
+}
+
+.title {
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    border-radius: 3px;
+}
+
+.subtitle {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    border-radius: 3px;
+}
+
+h3 {
+    font-size: 120%;
+    font-weight: 650;
+    padding-bottom: 15px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    /* width : 40vw; */
+    /* max-width: 100%; */
+    /* position: relative; */
+    margin: auto;
+  }
+  
+  .middle1 {
+    width: 80.2%;
+    height: 240px;
+    /* height: 240px; */
+    top: 50%;
+    left: 50.1%;
+    /* transition: transform 0.5s ease; */
+  }
+  
+  .middle2 {
+    width: 69%;
+    height: 240px;
+    top: 50%;
+    left: 50.1%;
+    /* transition: transform 0.5s ease; */
+  }
+  
+  
+  /* .slideshow-container:hover .middle1 {
+    border-radius: 14px;
+    width: 85.3%;
+    height: 255px;
+  }
+  
+  .slideshow-container:hover .middle2 {
+    border-radius: 0px;
+    width: 72.5%;
+    height: 255px;
+  } */
+  
+  /* Hide the images by default */
+  .mySlides {
+    /* width: 50vw; */
+    display: none;
+  }
+
+  .dot {
+    cursor: pointer;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin: 0px 2px;
+    background-color: rgb(124, 124, 124);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    z-index: 10;
+  }
+  
+  button {
+    cursor: pointer;
+    /* position: relative; */
+    height: 15px;
+    width: 15px;
+    margin: 0px 2px;
+    background-color: rgb(144, 144, 144);
+    /* border-bottom: rgb(124, 124, 124); */
+    border-style: hidden;
+    border-radius: 50%;
+    /* display: inline-block; */
+    /* transition: background-color 0.6s ease; */
+    /* z-index: 10; */
+  }
+
+button.active button.hover {
+    background-color: #333;
+}
+
+  .active, .dot:hover {
+    background-color: #2c2c2c;
+  }
+
+/* Next & previous buttons */
+.prev, .next {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .slideshow-container:hover .next {
+    opacity: 1;
+  }
+  
+  .slideshow-container:hover .prev {
+    opacity: 1;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    opacity: 1;
+    background-color: rgba(136, 136, 136, 0.8);
+  }
+
+  .YT_frame {
+    width: 1000px;
+    height: 562.5px;
+  }

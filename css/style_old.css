@@ -762,9 +762,9 @@ nav ul:after {
 }
 
 .section_title {
-    color: #616060;
-    font-size: 40px;
-    font-weight: 500;
+    color: #adadaf;
+    font-size: 18px;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1.8px;
     margin-bottom: 29px;
@@ -1118,7 +1118,7 @@ nav ul:after {
 
 .people__content .section_title {
     text-transform: none;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: normal;
     margin-bottom: 36px;
 }
@@ -1332,10 +1332,9 @@ nav ul:after {
 }
 
 .columns_layout .sidebar__list__item {
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     line-height: 40px;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .columns_layout .sidebar__list__item.active a {
