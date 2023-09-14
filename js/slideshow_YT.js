@@ -4,7 +4,7 @@ var currentVideoIndex = 0;
 
 function loadVideo(index) {
     var videoContainer = document.getElementById('videoContainer');
-    videoContainer.innerHTML = '<iframe width="1000" height="562.5" src="https://www.youtube.com/embed/' + videoIDs[index] + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    videoContainer.innerHTML = '<iframe style="width:40vw;height:22.5vw;" src="https://www.youtube.com/embed/' + videoIDs[index] + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 }
 
 // Function to generate the buttons for each video
@@ -50,7 +50,7 @@ function generatePrevNextButtons() {
     // prevButton.style.border = '1px solid black';
     prevButton.style.backgroundColor = 'lightgrey';
     prevButton.style.position = 'relative';
-    prevButton.style.width = '275px';
+    prevButton.style.width = '14%';
     prevButton.style.right = '16%';
     prevButton.style.transform = 'translateY(-60%)';
     prevButton.onclick = function() {
@@ -96,7 +96,7 @@ function generatePrevNextButtons() {
     // nextButton.style.border = '1px solid black';
     nextButton.style.backgroundColor = 'lightgrey';
     nextButton.style.position = 'relative';
-    nextButton.style.width = '275px';
+    nextButton.style.width = '14%';
     nextButton.style.left = '16%';
     nextButton.style.transform = 'translateY(-60%)';
     nextButton.onclick = function() {
